@@ -1,0 +1,12 @@
+"""Global configuration for the Algo trading bot."""
+
+DEFAULT_PAIR = "ETH/USDT"
+DEFAULT_TIMEFRAME = "1h"
+HTF_TIMEFRAME = "4h"
+LOOKBACK_MONTHS = 12
+START_BALANCE = 200.0
+
+FEE_RATE = 0.0006
+SLIPPAGE = 0.0003
+
+DATA_DIR = "data"
